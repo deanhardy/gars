@@ -17,7 +17,7 @@ m <- leaflet() %>%
              popup = paste('Site:', df$site, '<br>',
                            'River:', df$river, '<br>',
                            'Year Surveyed:', df$year, '<br>',
-                           'Type:', df$notes)) %>%
+                           'Notes:', df$notes)) %>%
   addLayersControl(baseGroups = c('Open Street Map', 'Esri World Imagery'), 
                    overlayGroups = c('GARS Sites'),
                    options = layersControlOptions(collapsed = TRUE))
@@ -25,5 +25,5 @@ m <- leaflet() %>%
 ## exporting as html file for exploration
 library(htmlwidgets)
 saveWidget(m, 
-           file="/Users/dhardy/Dropbox/r_data/gars/gars.html",
+           file="/Users/dhardy/r_projects/gars/docs/gars.html",
            title = "Georgia River Survey, Full Survey Sites")
