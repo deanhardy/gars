@@ -25,5 +25,5 @@ m <- leaflet() %>%
 ## exporting as html file for exploration
 library(htmlwidgets)
 saveWidget(m, 
-           file="/Users/dhardy/r_projects/gars/docs/gars.html",
+           file="/r_projects/gars/docs/gars.html",
            title = "Georgia River Survey, Full Survey Sites")
