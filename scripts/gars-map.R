@@ -1,6 +1,7 @@
 rm(list=ls())
 
 library(leaflet)
+library(leaflet.extras)
 library(sf)
 
 datadir <- 'C:/Users/dhardy/Dropbox/r_data/gars'
@@ -18,9 +19,11 @@ m <- leaflet() %>%
                            'River:', df$river, '<br>',
                            'Year Surveyed:', df$year, '<br>',
                            'Notes:', df$notes)) %>%
+  addSearchOSM(options = searchOptions(autoCollapse = TRUE, minLength = 2)) %>%
   addLayersControl(baseGroups = c('Open Street Map', 'Esri World Imagery'), 
                    overlayGroups = c('GARS Sites'),
                    options = layersControlOptions(collapsed = TRUE))
+m
 
 ## exporting as html file for exploration
 library(htmlwidgets)
