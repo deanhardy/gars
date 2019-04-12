@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Photos from the field</title>
+    <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Photos.html</link>
+    <description>Photos from the field</description>
+    <item>
+      <title>Satilla River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Satilla_River.html</link>
+      <guid isPermaLink="false">43934a19-bd8a-4473-b75a-f0238e38c6b8</guid>
+    </item>
+    <item>
+      <title>Flint River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Flint_River.html</link>
+      <guid isPermaLink="false">49ecceb3-5ce7-49de-baae-df836d9c8eb8</guid>
+    </item>
+    <item>
+      <title>Etowah River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Etowah_River.html</link>
+      <guid isPermaLink="false">66107d54-5cc7-4f8f-b11b-552c472839e1</guid>
+    </item>
+    <item>
+      <title>Ocmulgee River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Ocmulgee_River.html</link>
+      <guid isPermaLink="false">c40e8fa4-c8e8-44c8-b9fb-0875f36f941b</guid>
+    </item>
+    <item>
+      <title>Altamaha River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Altamaha_River.html</link>
+      <guid isPermaLink="false">43dd2bcb-b96e-4cae-ab55-6177488ddb2a</guid>
+    </item>
+    <item>
+      <title>Oconee River</title>
+      <link>http://www.georgiariversurvey.org/georgiariversurvey.org/Photos/Pages/Oconee_River.html</link>
+      <guid isPermaLink="false">b4ccf725-d17d-4868-9e3a-b84d5de4cae0</guid>
+    </item>
+  </channel>
+</rss>
