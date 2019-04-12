@@ -11,6 +11,7 @@ df <- read_sf(file.path(datadir, 'gars-sites')) %>%
 
 m <- leaflet() %>%
   addProviderTiles(providers$Esri.WorldImagery, group = 'ESRI World Imagery') %>%
+  #addProviderTiles(providers$) %>%
   addTiles(group = 'Open Street Map') %>%
   setView(lng = -83, lat = 32.8, zoom = 7) %>%
   addScaleBar('bottomright') %>%
